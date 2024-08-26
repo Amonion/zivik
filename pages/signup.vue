@@ -605,48 +605,12 @@ import HomeHeader from "../components/home/HomeHeader";
 export default {
   data() {
     return {
-      firstName: "",
-      middleName: "",
-      lastName: "",
+      fullName: "",
       username: "",
-      dob: "",
-      income: "Select Income",
-      gender: "",
-      maritalStatus: "",
-
-      showIncomeList: false,
-      showCountryList: false,
-      showOriginCountryList: false,
-      showIdList: false,
-      showCurrencyTypeList: false,
-
-      residentAddress: "",
-      residentState: "",
-      residentZipCode: "",
-      residentCountry: "Select Country",
-
       phoneNumber: "",
       email: "",
-
-      identity: "Select Identity",
-      ids: ["National ID", "Internation Passport", "Drivers Licence"],
-      idName: "Upload Image File of your ID",
-      avatar: "/images/avatar.svg",
-      idPicture: "",
-
       password: "",
       cPassword: "",
-
-      signup: false,
-
-      incomeArray: ["Salary", "Trading", "Freelancing", "Technician"],
-
-      formSections: [],
-      availableForms: 0,
-      formPage: 0,
-
-      complete: true,
-
       msg: "",
       colour: false,
       showMsg: false,
@@ -668,31 +632,10 @@ export default {
     clearInputs() {
       this.colour = true;
       this.onRequest = false;
-      this.firstName = "";
-      this.middleName = "";
-      this.lastName = "";
+      this.fullName = "";
       this.username = "";
-      this.dob = "";
-      this.income = "Select Income";
-      this.gender = "";
-      this.showCountryList = false;
-      this.showOriginCountryList = false;
-      this.showIdList = false;
-      this.showCurrencyTypeList = false;
-
-      this.residentAddress = "";
-      this.residentState = "";
-      this.residentZipCode = "";
-      this.residentCountry = "Select Country";
-
       this.phoneNumber = "";
       this.email = "";
-
-      this.idName = "Upload Image File of your ID";
-      this.identity = "Select Identity";
-      this.avatar = "/images/avatar.svg";
-      this.idPicture = "";
-
       this.password = "";
       this.cPassword = "";
     },
