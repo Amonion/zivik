@@ -8,7 +8,7 @@
           <div class="card-types">
             <div class="card-types-wrapper success-wrap">
               <div class="card-title success">
-                Your transaction was successful and will be aproved after
+                Your transaction was successful and will be approved after
                 confirmation
               </div>
               <div class="type-card select card">
